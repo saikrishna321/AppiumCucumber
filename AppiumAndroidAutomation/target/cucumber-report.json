@@ -1,0 +1,39 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 7,
+        "name": "As a user im able to login into the application",
+        "description": "",
+        "id": "logging-into-saleforce;as-a-user-im-able-to-login-into-the-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "line": 9,
+            "name": "i am on application landing page",
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 28551848978,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "i login to the application if the user is not logged in",
+            "match": {
+              "location": "GroceryTest.login()"
+            },
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "Logging into Saleforce",
+    "description": "\nIn order to work\nAs a sales person\nI want to login",
+    "id": "logging-into-saleforce",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  }
+]
